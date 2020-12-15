@@ -1,0 +1,46 @@
+server:
+    port: 8888
+    servlet:
+        context-path: /xjforum
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        druid:
+            initialSize: 1
+            max-pool-prepared-statement-per-connection-size: 20
+            maxActive: 20
+            minIdle: 3
+            pool-prepared-statements: true
+            testOnBorrow: true
+            testOnReturn: true
+            testWhileIdle: true
+            validationQuery: select 'x'
+        password: 19970822
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql://127.0.0.1:3306/world?useUnicode=true&characterEncoding=UTF8&useSSL=false&serverTimezone=Asia/Shanghai
+        username: root
+    jpa:
+        database: mysql
+        database-platform: org.hibernate.dialect.MySQL5Dialect
+        generate-ddl: false  #自动创表
+        hibernate:
+            ddl-auto: none  #ddl方式
+            naming:
+                implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+            use-new-id-generator-mappings: false
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQL5Dialect
+        show-sql: true
+    mvc:
+        view:
+            prefix: /WEB-INF/view/
+            suffix: .jsp
+    servlet:
+        multipart:
+            enabled: true
+swagger:
+    enabled: true
+#分页插件
+
+
