@@ -1,4 +1,0 @@
-#激活application-dev的yml文件，被激活文件的命名方式为application-激活后缀
-spring:
-  profiles:
-    active: dev

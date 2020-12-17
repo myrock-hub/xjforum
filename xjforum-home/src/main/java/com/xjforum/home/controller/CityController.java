@@ -3,6 +3,8 @@ package com.xjforum.home.controller;
 import com.xjforum.home.entity.City;
 import com.xjforum.home.entity.CityParam;
 import com.xjforum.home.service.CityServiceImpl;
+import com.xjforum.home.util.ResultUtil;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -13,64 +15,61 @@ import com.alibaba.fastjson.JSON;
 import java.util.List;
 
 @RestController("/city")
+@Api(tags = {"城市controller"})
 public class CityController {
     @Autowired
     CityServiceImpl cityService;
 
     @ApiOperation(value="按id查询城市信息")
-    @ResponseBody
     @GetMapping("/queryCityList")
-    public String queryCityList(@RequestParam("id") int id)  {
+    public ResultUtil queryCityList(@RequestParam("id") int id)  {
         List<City> queryCityList = cityService.queryCityList(id);
-        String jsonString = JSON.toJSONString(queryCityList);
-        return  jsonString;
+        return  ResultUtil.ok().data("data",queryCityList).message("城市列表");
 
     }
 
     @ApiOperation(value="查询全部城市信息")
     @ResponseBody
     @GetMapping("/findAllByPage")
-    public String findAll(@RequestParam("page") int page,@RequestParam("size") int size)  {
+    public ResultUtil findAll(@RequestParam("page") int page,@RequestParam("size") int size)  {
         Page<City> cityList = cityService.findAlllist(page,size);
-        String jsonString = JSON.toJSONString(cityList);
-        return  jsonString;
+        return  ResultUtil.ok().data("data",cityList).message("分页查看城市信息");
     }
 
     @ApiOperation(value = "添加城市")
     @ResponseBody
     @PostMapping("/saveCity")
-    public String save(@RequestBody City city){
+    public ResultUtil save(@RequestBody City city){
         String save = cityService.save(city);
-        return save;
+        return ResultUtil.ok().data("data",save);
     }
 
     @ApiOperation(value = "删除城市")
     @ResponseBody
     @PostMapping("/deleteCity")
-    public String deleteCity(@RequestParam("name") String name){
+    public ResultUtil deleteCity(@RequestParam("name") String name){
         City city = new City();
         city.setName(name);
         String delete = cityService.delete(city);
-        return delete;
+        return ResultUtil.ok().data("data",delete);
     }
 
     @ApiOperation(value = "修改城市信息")
     @ResponseBody
     @PostMapping("/updateCity")
-    public String updateCity(@RequestBody City city){
+    public ResultUtil updateCity(@RequestBody City city){
         String update = cityService.updateCity(city);
-        return update;
+        return ResultUtil.ok().data("data",update);
     }
 
     @ApiOperation(value="关键字查询城市信息")
     @ResponseBody
     @PostMapping("/findAllByKeyWord")
-    public String findAllByKeyWord(
+    public ResultUtil findAllByKeyWord(
             @RequestParam("page") int page,
             @RequestParam("size") int size,
             @RequestBody CityParam cityParam)  {
         Page<City> cityList = cityService.findAllByKeyWord(page, size,cityParam);
-        String jsonString = JSON.toJSONString(cityList);
-        return  jsonString;
+        return  ResultUtil.ok().data("data",cityList).message("关键字查询城市信息");
     }
 }

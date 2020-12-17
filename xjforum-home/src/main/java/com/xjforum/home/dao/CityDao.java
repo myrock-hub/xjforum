@@ -1,6 +1,8 @@
 package com.xjforum.home.dao;
 
 import com.xjforum.home.entity.City;
+
+import org.apache.ibatis.annotations.Mapper;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
@@ -13,7 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-@Repository
+@Mapper
 public interface CityDao extends PagingAndSortingRepository<City, Long>, JpaSpecificationExecutor<City> {
 
     @Query("from City t where Name = :Name")
