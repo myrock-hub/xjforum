@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af500894-7269-49fd-a1d0-06cef60b67ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/util/ResultCodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/util/ResultUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/TestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/ServletInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/XjforumApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/controller/CityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/controller/CityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/dao/CityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/dao/CityDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/entity/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/entity/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xjforum-home/src/main/resources/application-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xjforum-home/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/AllApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/AllApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-home/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-home/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/Swagger2/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/Swagger2/Swagger2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-main/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-main/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,11 +24,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/AllApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+            <state relative-caret-position="-72">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/controller/CityController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/GlobalExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1427">
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,8 +60,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/resources/application-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="221">
+              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xjforum-home/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xjforum-main/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/Swagger2/Swagger2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -87,13 +126,10 @@
         <option value="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/AllApplication.java" />
         <option value="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjxy/xjforum/home/service/CityServiceImpl.java" />
         <option value="$PROJECT_DIR$/xjforum-main/src/main/java/com/alibaba/druid/pool/DruidDataSource.java" />
-        <option value="$PROJECT_DIR$/xjforum-home/pom.xml" />
         <option value="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/DruidDBConfig.java" />
-        <option value="$PROJECT_DIR$/xjforum-main/pom.xml" />
         <option value="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/Swagger2/Swagger2.java" />
         <option value="$PROJECT_DIR$/xjforum-admin/src/main/java/com/xjforum/admin/controller/helloAdmin.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/Swagger2/Swagger2.java" />
         <option value="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/util/ResultCodeEnum.java" />
         <option value="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/controller/CityController.java" />
         <option value="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/entity/City.java" />
@@ -104,6 +140,15 @@
         <option value="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/ServletInitializer.java" />
         <option value="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/dao/CityDao.java" />
         <option value="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/AllApplication.java" />
+        <option value="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/Swagger2/Swagger2.java" />
+        <option value="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/WebAppConfigurer.java" />
+        <option value="$PROJECT_DIR$/xjforum-main/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/test/TestController.java" />
+        <option value="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/util/TestController.java" />
+        <option value="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/TestController.java" />
+        <option value="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/test/CityControllerTest.java" />
+        <option value="$PROJECT_DIR$/xjforum-main/pom.xml" />
+        <option value="$PROJECT_DIR$/xjforum-home/pom.xml" />
       </list>
     </option>
   </component>
@@ -138,10 +183,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="256" />
-    <option name="y" value="16" />
-    <option name="width" value="1403" />
-    <option name="height" value="1004" />
+    <option name="x" value="255" />
+    <option name="y" value="15" />
+    <option name="width" value="1404" />
+    <option name="height" value="1005" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,7 +257,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="center" type="b2602c69:ProjectViewProjectNode" />
@@ -237,47 +282,57 @@
             <path>
               <item name="center" type="b2602c69:ProjectViewProjectNode" />
               <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
+              <item name="xjforum-home" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="center" type="b2602c69:ProjectViewProjectNode" />
               <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
+              <item name="xjforum-home" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="center" type="b2602c69:ProjectViewProjectNode" />
+              <item name="center" type="462c0819:PsiDirectoryNode" />
+              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="center" type="b2602c69:ProjectViewProjectNode" />
+              <item name="center" type="462c0819:PsiDirectoryNode" />
+              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="center" type="b2602c69:ProjectViewProjectNode" />
+              <item name="center" type="462c0819:PsiDirectoryNode" />
+              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="center" type="b2602c69:ProjectViewProjectNode" />
+              <item name="center" type="462c0819:PsiDirectoryNode" />
+              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="center" type="b2602c69:ProjectViewProjectNode" />
+              <item name="center" type="462c0819:PsiDirectoryNode" />
+              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="center" type="b2602c69:ProjectViewProjectNode" />
@@ -335,6 +390,37 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.AllApplication">
+    <configuration name="CityControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xjforum-home" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjforum.home.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xjforum.home.test" />
+      <option name="MAIN_CLASS_NAME" value="com.xjforum.home.test.CityControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CityControllerTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xjforum-home" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjforum.home.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xjforum.home.test" />
+      <option name="MAIN_CLASS_NAME" value="com.xjforum.home.test.CityControllerTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AllApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="xjforum-main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjxy.forum.main.AllApplication" />
@@ -343,20 +429,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XjforumApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="xjforum-home" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjforum.home.XjforumApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XjforumApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="xjforum-home" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjxy.xjforum.XjforumApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="JUnit.CityControllerTest" />
+      <item itemvalue="JUnit.CityControllerTest.findAll" />
+      <item itemvalue="Spring Boot.AllApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CityControllerTest.findAll" />
+        <item itemvalue="JUnit.CityControllerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -372,7 +455,8 @@
       <workItem from="1608000889594" duration="6552000" />
       <workItem from="1608018842650" duration="5191000" />
       <workItem from="1608103886276" duration="4232000" />
-      <workItem from="1608168923400" duration="12539000" />
+      <workItem from="1608168923400" duration="13919000" />
+      <workItem from="1608256151569" duration="5037000" />
     </task>
     <task id="LOCAL-00001" summary="xjforum多模块">
       <created>1608021076047</created>
@@ -409,11 +493,23 @@
       <option name="project" value="LOCAL" />
       <updated>1608114472064</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="xjforum添加返回类">
+      <created>1608192135724</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608192135724</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CityControllerTest_findAll - 2020.12.18 at 10h 57m 31s.xml">
+      <configuration name="CityControllerTest.findAll" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32182000" />
+    <option name="totallyTimeSpent" value="38599000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,7 +524,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2419571" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24530831" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -450,7 +546,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32960895" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.24407253" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.24267782" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -471,7 +567,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="xjforum多模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="xjforum多模块" />
+    <MESSAGE value="xjforum添加返回类" />
+    <option name="LAST_COMMIT_MESSAGE" value="xjforum添加返回类" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
@@ -481,9 +578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjxy/xjforum/home/service/CityServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjxy/xjforum/home/util/DruidDBConfig.java" />
     <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/alibaba/druid/pool/DruidDataSource.java" />
@@ -501,11 +596,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-479" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/resources/application-dev.yml" />
     <entry file="file://$PROJECT_DIR$/xjforum.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -534,20 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-main/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-home/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3302">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/util/ResultCodeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -565,13 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/Swagger2/Swagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -579,20 +649,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/ServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/ServletInitializer.java" />
     <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/DruidDBConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1197">
@@ -604,13 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/WebAppConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -628,57 +678,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/XjforumApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/ServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/controller/CityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="761">
-          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/XjforumApplication.java" />
+    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/ServletInitializer.java" />
     <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/service/CityServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/entity/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -695,13 +700,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/AllApplication.java">
+    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/entity/City.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        <state relative-caret-position="95">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1427">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/WebAppConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/AllApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/controller/CityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-main/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/test/CityControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-home/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/Swagger2/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
         </state>
       </provider>
     </entry>
