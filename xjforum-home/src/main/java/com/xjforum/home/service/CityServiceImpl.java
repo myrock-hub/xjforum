@@ -15,6 +15,7 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 @Service
@@ -28,6 +29,7 @@ public class CityServiceImpl {
      */
     public City findByCityName(String cityName){
         City city = cityDao.findByName(cityName);
+
         return city;
     }
 
@@ -133,5 +135,10 @@ public class CityServiceImpl {
         Pageable pageable = PageRequest.of(page-1,size);
         Page<City> all = cityDao.findAll(specification, pageable);
         return all;
+    }
+
+    public int deleteBatch(List<String> names){
+        int result = cityDao.deleteBatch(names);
+        return result;
     }
 }

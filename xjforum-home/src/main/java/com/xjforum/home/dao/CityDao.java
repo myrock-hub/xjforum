@@ -32,6 +32,9 @@ public interface CityDao extends PagingAndSortingRepository<City, Long>, JpaSpec
     @Query(value ="delete from City where name = ?1", nativeQuery = true)
     int deleteByCountryCode(String name);
 
-
+    @Modifying
+    @Transactional
+    @Query("delete from City where name in (?1)")
+    int deleteBatch(List<String> names);
 
 }
