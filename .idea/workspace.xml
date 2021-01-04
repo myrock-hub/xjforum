@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af500894-7269-49fd-a1d0-06cef60b67ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/config/XxlJobConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xjforum-home/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-home/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/controller/CityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/controller/CityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xjforum-main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/DruidDBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/config/DruidDBConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/DruidStatFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/config/DruidStatFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/DruidStatViewServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/config/DruidStatViewServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/MultipartConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/config/MultipartConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/WebAppConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/config/WebAppConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xjforum-main/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-main/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,11 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/controller/CityController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -60,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/handler/DemoJobHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="324">
+              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,104 +160,6 @@
             <path>
               <item name="center" type="b2602c69:ProjectViewProjectNode" />
               <item name="center" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -411,7 +296,7 @@
       <workItem from="1609741355731" duration="623000" />
       <workItem from="1609749851171" duration="2435000" />
       <workItem from="1609752297478" duration="1560000" />
-      <workItem from="1609753951824" duration="1627000" />
+      <workItem from="1609753951824" duration="2160000" />
     </task>
     <task id="LOCAL-00001" summary="xjforum多模块">
       <created>1608021076047</created>
@@ -469,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609315819237</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="xjforum添加任务调度模块">
+      <created>1609755816437</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609755816437</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -478,7 +370,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60014000" />
+    <option name="totallyTimeSpent" value="60547000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -491,7 +383,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30965146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -503,7 +394,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42318437" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42318437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -515,7 +406,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.22625698" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.24128312" />
+      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.24022347" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.10053619" />
@@ -573,7 +464,8 @@
     <MESSAGE value="xjforum多模块" />
     <MESSAGE value="xjforum添加返回类" />
     <MESSAGE value="xjforum添加批量删除" />
-    <option name="LAST_COMMIT_MESSAGE" value="xjforum添加批量删除" />
+    <MESSAGE value="xjforum添加任务调度模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="xjforum添加任务调度模块" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -850,18 +742,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/controller/CityController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/handler/DemoJobHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="324">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
