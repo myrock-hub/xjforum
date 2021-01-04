@@ -9,6 +9,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/xjforum-home/pom.xml" />
+        <option value="$PROJECT_DIR$/xjforum-job-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/xjforum-core/pom.xml" />
       </list>
     </option>
   </component>

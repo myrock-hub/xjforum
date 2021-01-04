@@ -4,6 +4,7 @@ import com.xjforum.home.entity.City;
 import com.xjforum.home.entity.CityParam;
 import com.xjforum.home.service.CityServiceImpl;
 import com.xjforum.home.util.ResultUtil;
+import com.xxl.job.core.handler.annotation.JobHandler;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +17,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+@JobHandler(value = "demoJobHandler")
 @RestController("/city")
 @Api(tags = {"城市controller"})
 public class CityController {

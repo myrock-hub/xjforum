@@ -1,4 +1,4 @@
-package com.xjxy.forum.main.util;
+package com.xjxy.forum.main.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.slf4j.Logger;

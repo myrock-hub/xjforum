@@ -1,4 +1,4 @@
-package com.xjxy.forum.main.util;
+package com.xjxy.forum.main.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

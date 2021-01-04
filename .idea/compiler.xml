@@ -9,7 +9,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="xjforum-home" />
         <module name="xjforum-main" />
+        <module name="xjforum-core" />
         <module name="xjforum-admin" />
+        <module name="xjforum-job-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,7 +22,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="xjforum (1) (com.xjxy)" options="-parameters" />
       <module name="xjforum-admin" options="-parameters" />
+      <module name="xjforum-core" options="-parameters" />
       <module name="xjforum-home" options="-parameters" />
+      <module name="xjforum-job-admin" options="-parameters" />
       <module name="xjforum-main" options="-parameters" />
     </option>
   </component>
