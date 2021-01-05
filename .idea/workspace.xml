@@ -3,6 +3,57 @@
   <component name="ChangeListManager">
     <list default="true" id="af500894-7269-49fd-a1d0-06cef60b67ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/AdminBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/AdminBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/ExecutorBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/ExecutorBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/client/AdminBizClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/client/AdminBizClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/client/ExecutorBizClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/client/ExecutorBizClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/impl/ExecutorBizImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/impl/ExecutorBizImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/HandleCallbackParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/HandleCallbackParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/IdleBeatParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/IdleBeatParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/KillParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/KillParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/LogParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/LogParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/LogResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/LogResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/RegistryParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/RegistryParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/ReturnT.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/ReturnT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/TriggerParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/TriggerParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/context/XxlJobContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/context/XxlJobContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/context/XxlJobHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/context/XxlJobHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/enums/ExecutorBlockStrategyEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/enums/ExecutorBlockStrategyEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/enums/RegistryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/enums/RegistryConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/executor/XxlJobExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/executor/XxlJobExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/executor/impl/XxlJobSimpleExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/executor/impl/XxlJobSimpleExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/executor/impl/XxlJobSpringExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/executor/impl/XxlJobSpringExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/glue/GlueFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/glue/GlueFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/glue/GlueTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/glue/GlueTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/glue/impl/SpringGlueFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/glue/impl/SpringGlueFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/handler/IJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/handler/IJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/handler/annotation/JobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/handler/annotation/JobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/handler/annotation/XxlJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/handler/annotation/XxlJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/handler/impl/GlueJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/handler/impl/GlueJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/handler/impl/MethodJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/handler/impl/MethodJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/handler/impl/ScriptJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/handler/impl/ScriptJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/log/XxlJobFileAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/log/XxlJobFileAppender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/server/EmbedServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/server/EmbedServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/thread/ExecutorRegistryThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/thread/ExecutorRegistryThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/thread/JobLogFileCleanThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/thread/JobLogFileCleanThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/thread/JobThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/thread/JobThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/thread/TriggerCallbackThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/thread/TriggerCallbackThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/GsonTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/GsonTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/IpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/IpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/JdkSerializeTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/JdkSerializeTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/NetUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/NetUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/ScriptUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/ScriptUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/ShardingUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/ShardingUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/ThrowableUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/ThrowableUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/XxlJobRemotingUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/XxlJobRemotingUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/controller/CityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/controller/CityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/handler/DemoJobHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobLogGlue.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobLogGlue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-job-admin/src/main/java/com/xxl/job/admin/core/old/XxlJobDynamicScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-job-admin/src/main/java/com/xxl/job/admin/core/old/XxlJobDynamicScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xjforum-main/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xjforum-main/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,32 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/resources/application-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="52" column="38" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/controller/CityController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/handler/DemoJobHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="267">
+              <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -103,10 +133,14 @@
         <option value="$PROJECT_DIR$/xjforum-main/src/main/resources/META-INF/additional-spring-configuration-metadata.json" />
         <option value="$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/config/XxlJobConfig.java" />
         <option value="$PROJECT_DIR$/xjforum-main/pom.xml" />
-        <option value="$PROJECT_DIR$/xjforum-main/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/controller/CityController.java" />
         <option value="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/handler/dd.java" />
         <option value="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/handler/DemoJobHandler.java" />
+        <option value="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/context/XxlJobContext.java" />
+        <option value="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/handler/SampleXxlJob.java" />
+        <option value="$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/controller/CityController.java" />
+        <option value="$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/annotation/XxlJob.java" />
+        <option value="$PROJECT_DIR$/xjforum-core/src/main/java/core/biz/model/LogResult.java" />
+        <option value="$PROJECT_DIR$/xjforum-main/src/main/resources/application-dev.yml" />
       </list>
     </option>
   </component>
@@ -146,13 +180,14 @@
     <option name="width" value="1405" />
     <option name="height" value="1005" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -161,10 +196,37 @@
               <item name="center" type="b2602c69:ProjectViewProjectNode" />
               <item name="center" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="center" type="b2602c69:ProjectViewProjectNode" />
+              <item name="center" type="462c0819:PsiDirectoryNode" />
+              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="center" type="b2602c69:ProjectViewProjectNode" />
+              <item name="center" type="462c0819:PsiDirectoryNode" />
+              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="center" type="b2602c69:ProjectViewProjectNode" />
+              <item name="center" type="462c0819:PsiDirectoryNode" />
+              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="center" type="b2602c69:ProjectViewProjectNode" />
+              <item name="center" type="462c0819:PsiDirectoryNode" />
+              <item name="xjforum-main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,7 +237,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xjforum-core" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/xjforum-home/src/main/java/com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xjforum-core/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -184,19 +247,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\idea项目\center\xjforum-home\src\main\java\com\xjforum\home" />
-      <recent name="E:\idea项目\center\xjforum-main\src\main\java\com\xjxy\forum\main" />
-      <recent name="E:\idea项目\center\xjforum-main\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.xjxy.forum.main.config" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\idea项目\center\xjforum-home\src\main\resources" />
       <recent name="E:\idea项目\center\xjforum-home\src\main\java" />
       <recent name="E:\idea项目\center\xjforum-home\src\main" />
       <recent name="E:\idea项目\center\xjforum-home\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xxl.job.core.handler.annotation" />
+      <recent name="com.xxl.job.core.annotation" />
+      <recent name="com.xjforum.home.handler" />
+      <recent name="com.xjxy.forum.main.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea项目\center\xjforum-core\src\main\java" />
+      <recent name="E:\idea项目\center\xjforum-home\src\main\java\com\xjforum\home" />
+      <recent name="E:\idea项目\center\xjforum-main\src\main\java\com\xjxy\forum\main" />
+      <recent name="E:\idea项目\center\xjforum-main\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -211,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AllApplication">
+  <component name="RunManager" selected="Spring Boot.XxlJobAdminApplication">
     <configuration name="CityControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xjforum-home" />
       <extension name="coverage">
@@ -296,7 +363,8 @@
       <workItem from="1609741355731" duration="623000" />
       <workItem from="1609749851171" duration="2435000" />
       <workItem from="1609752297478" duration="1560000" />
-      <workItem from="1609753951824" duration="2160000" />
+      <workItem from="1609753951824" duration="2467000" />
+      <workItem from="1609810701432" duration="1274000" />
     </task>
     <task id="LOCAL-00001" summary="xjforum多模块">
       <created>1608021076047</created>
@@ -361,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609755816437</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="xjforum添加任务调度模块">
+      <created>1609756394783</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609756394783</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -370,7 +445,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60547000" />
+    <option name="totallyTimeSpent" value="62128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -383,8 +458,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30965146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31367293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -406,7 +482,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.22625698" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.24022347" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.24022347" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.10053619" />
@@ -419,7 +495,7 @@
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3016086" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31367293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -438,13 +514,13 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32960895" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32960895" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.22625698" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.22625698" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.24128312" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.24022347" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="2" visible="true" weight="0.10053619" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.10053619" />
       <window_info anchor="right" id="Maven" order="3" weight="0.32983023" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -472,54 +548,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="749" column="6" selection-start-line="749" selection-start-column="6" selection-end-line="749" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjxy/xjforum/home/service/CityServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjxy/xjforum/home/util/DruidDBConfig.java" />
-    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/alibaba/druid/pool/DruidDataSource.java" />
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/resources/application-dev.yml" />
-    <entry file="file://$PROJECT_DIR$/xjforum.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/HibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/util/DruidDBConfig.java" />
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/Swagger2/Swagger2.java" />
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/util/MultipartConfig.java" />
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/entity/CityParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/util/ResultCodeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/util/ResultUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="81" column="53" lean-forward="true" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/ServletInitializer.java" />
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/XjforumApplication.java" />
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/ServletInitializer.java" />
     <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/test/CityControllerTest.java" />
     <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/java/com/xjxy/forum/main/util/GlobalExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -593,13 +621,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2945">
-          <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -733,27 +754,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/resources/application-dev.yml">
+    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/handler/DemoJobHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="38" />
+        <state relative-caret-position="-57">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/context/XxlJobContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/context/XxlJobHelper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xxl/job/core/handler/annotation/XxlJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/controller/CityController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/handler/DemoJobHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="267">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/annotation/XxlJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/handler/annotation/XxlJob.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/executor/impl/XxlJobSpringExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-home/src/main/java/com/xjforum/home/handler/SampleXxlJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/executor/impl/XxlJobSimpleExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/executor/impl/XxlJobSpringExecutor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/IpUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/LogParam.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/thread/JobThread.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/glue/GlueFactory.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/handler/annotation/JobHandler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/handler/IJobHandler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/util/ShardingUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/model/LogResult.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/handler/impl/GlueJobHandler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-core/src/main/java/com/xxl/job/core/biz/ExecutorBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xjforum-main/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
         </state>
       </provider>
     </entry>

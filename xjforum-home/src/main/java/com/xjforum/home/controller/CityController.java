@@ -17,7 +17,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-@JobHandler(value = "demoJobHandler")
 @RestController("/city")
 @Api(tags = {"城市controller"})
 public class CityController {
