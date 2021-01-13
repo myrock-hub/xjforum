@@ -26,7 +26,7 @@ import java.util.Date;
 //扫描 main,test 模块中的下的所有包
 //在 pom 加载子模块依赖才可以骚包
 @ServletComponentScan(basePackages={"com.xjforum.*"})
-@MapperScan(basePackages = "com.xjforum.home")
+@MapperScan(basePackages = "com.xjforum.*.mapper")
 @EnableJpaRepositories("com.xjforum.home.dao")
 @EntityScan("com.xjforum.home")
 @ComponentScan({"com.xjxy.forum","com.xjforum.home","com.xjforum.admin"})
