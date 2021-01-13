@@ -45,6 +45,22 @@ swagger:
 mybatis:
   mapper-locations: classpath:mapping/*.xml
   type-aliases-package: com.xjforum.admin.entity
+  config-location: classpath:config/Mybatis-config.xml
+
+#mybatis-pageable
+hengboy:
+  pageable:
+    dialect: mysql
+
+
+#显示mybatis 的sql
+logging:
+  level:
+    com:
+      xjforum:
+        admin:
+          mapper: debug
+
 
 #xxl-job
 xxl:

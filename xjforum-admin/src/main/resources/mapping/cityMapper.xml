@@ -7,6 +7,22 @@
         select * from city where id = #{id}
     </select>
 
+    <select id="citySearch" parameterType="com.xjforum.admin.entity.City" resultType="com.xjforum.admin.entity.City">
+        select * from city c
+        where
+        <if test="Name != null">
+            c.name LIKE CONCAT('%', #{Name, jdbcType=VARCHAR},'%')
+        </if>
+
+        <if test="CountryCode != null">
+            AND c.CountryCode LIKE CONCAT('%', #{CountryCode, jdbcType=VARCHAR},'%')
+        </if>
+
+        <if test="District != null">
+            AND c.District LIKE CONCAT('%', #{District, jdbcType=VARCHAR},'%')
+        </if>
+        ORDER BY c.name
+    </select>
 
 
 </mapper>
