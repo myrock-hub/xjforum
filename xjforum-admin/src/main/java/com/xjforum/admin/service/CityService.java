@@ -26,9 +26,25 @@ public class CityService {
         return cityMapper.Sel(id);
     }
 
+    public int getID(String Name){
+        return cityMapper.getID(Name);
+    }
+
     public PageInfo<City> citySearch(City city , int page, int size ){
         PageHelper.startPage(page,size);
         return new PageInfo<>( cityMapper.citySearch(city));
+    }
+
+    public int updateCity(City city ){
+        return cityMapper.updateCity(city);
+    }
+
+    public int deleteCity(String Name){
+        return cityMapper.deleteCity(Name);
+    }
+
+    public int addCity(City city ){
+        return cityMapper.addCity(city);
     }
 
 

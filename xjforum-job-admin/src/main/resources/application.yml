@@ -35,9 +35,9 @@ spring:
         suffix: .ftl
         templateLoaderPath: classpath:/templates/
     mail:
-        from: xxx@qq.com
+        from:
         host: smtp.qq.com
-        password: xxx
+        password: wrgupmdqwgymbcfg
         port: 25
         properties:
             mail:

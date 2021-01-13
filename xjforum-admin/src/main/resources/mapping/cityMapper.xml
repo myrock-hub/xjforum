@@ -4,7 +4,15 @@
 
 
     <select id="Sel" resultType="com.xjforum.admin.entity.City">
-        select * from city where id = #{id}
+        select *
+        from city
+        where id = #{id}
+    </select>
+
+    <select id="getID" resultType="int">
+        select ID
+        from city
+        where Name = #{Name}
     </select>
 
     <select id="citySearch" parameterType="com.xjforum.admin.entity.City" resultType="com.xjforum.admin.entity.City">
@@ -24,5 +32,25 @@
         ORDER BY c.name
     </select>
 
+    <update id="updateCity" parameterType="City">
+        update city c
+        set c.district = #{district}
+        where c.name = #{Name}
+    </update>
 
+    <delete id="deleteCity" parameterType="String">
+        delete
+        from City
+        where Name = #{Name}
+    </delete>
+
+
+    <insert id="addCity" parameterType="City">
+
+        insert into City values (
+        <if test="ID !=null">
+            #{ID},
+        </if>
+        #{Name},#{CountryCode},#{District},#{Population})
+    </insert>
 </mapper>

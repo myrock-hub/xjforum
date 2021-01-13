@@ -18,4 +18,13 @@ public interface CityMapper {
     City Sel(int id);
 
     List<City> citySearch(City city);
+
+    int updateCity(City city);
+
+    int deleteCity(String Name);
+
+    int addCity(City city);
+
+    int getID(String Name);
+
 }
