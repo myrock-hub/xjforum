@@ -2,25 +2,28 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="xjforum-home" />
-        <module name="xjforum-main" />
         <module name="xjforum-core" />
         <module name="xjforum-admin" />
         <module name="xjforum-job-admin" />
+        <module name="xjforum-main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="xjforum (1) (com.xjxy)" target="1.8" />
+      <module name="center" target="1.8" />
+      <module name="xjforum-admin" target="1.8" />
+      <module name="xjforum-core" target="1.8" />
+      <module name="xjforum-home" target="1.8" />
+      <module name="xjforum-job-admin" target="1.8" />
+      <module name="xjforum-main" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="xjforum (1) (com.xjxy)" options="-parameters" />
       <module name="xjforum-admin" options="-parameters" />
       <module name="xjforum-core" options="-parameters" />
       <module name="xjforum-home" options="-parameters" />

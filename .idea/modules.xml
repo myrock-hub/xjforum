@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/center.iml" filepath="$PROJECT_DIR$/center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xjforum-admin/xjforum-admin.iml" filepath="$PROJECT_DIR$/xjforum-admin/xjforum-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xjforum-core/xjforum-core.iml" filepath="$PROJECT_DIR$/xjforum-core/xjforum-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xjforum-home/xjforum-home.iml" filepath="$PROJECT_DIR$/xjforum-home/xjforum-home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xjforum-job-admin/xjforum-job-admin.iml" filepath="$PROJECT_DIR$/xjforum-job-admin/xjforum-job-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xjforum-main/xjforum-main.iml" filepath="$PROJECT_DIR$/xjforum-main/xjforum-main.iml" />
+    </modules>
+  </component>
+</project>

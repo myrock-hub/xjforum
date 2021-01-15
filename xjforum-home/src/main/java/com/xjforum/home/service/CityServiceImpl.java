@@ -29,7 +29,6 @@ public class CityServiceImpl {
      */
     public City findByCityName(String cityName){
         City city = cityDao.findByName(cityName);
-
         return city;
     }
 
