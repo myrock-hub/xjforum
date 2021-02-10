@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="xjforum-home" />
         <module name="xjforum-core" />
+        <module name="xjforum-home" />
+        <module name="xjforum-main" />
         <module name="xjforum-admin" />
         <module name="xjforum-job-admin" />
-        <module name="xjforum-main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +24,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="center" options="-parameters" />
       <module name="xjforum-admin" options="-parameters" />
       <module name="xjforum-core" options="-parameters" />
       <module name="xjforum-home" options="-parameters" />

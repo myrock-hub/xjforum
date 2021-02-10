@@ -13,9 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import com.alibaba.fastjson.JSON;
 
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 @RestController("/city")
 @Api(tags = {"城市controller"})
@@ -91,6 +89,15 @@ public class CityController {
         }
 
     }
+    public ResultUtil findAnayle(int page,int size){
+
+        Page<City> cities = cityService.findAlllist(page, size);
+        Map<String,Object> map = new HashMap<>();
+        map.put("data",cities);
+
+        return null;
+    }
+
 
 
 }

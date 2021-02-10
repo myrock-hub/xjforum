@@ -32,7 +32,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.2" level="project" />
-    <orderEntry type="library" name="Maven: junit:junit:5.7.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-test:5.3.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-test:2.4.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.xuxueli:xxl-job-core:2.1.0" level="project" />

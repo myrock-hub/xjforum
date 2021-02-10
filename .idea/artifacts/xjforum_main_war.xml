@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xjforum-main:war">
+    <output-path>$PROJECT_DIR$/xjforum-main/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>xjforum-main</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="xjforum-main-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="xjforum-main:war exploded" />
+    </root>
+  </artifact>
+</component>
